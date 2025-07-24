@@ -1,0 +1,15 @@
+<div class="login-container">
+  <form (submit)="onSubmit()">
+    <h2>Login</h2>
+    <div *ngIf="error" class="error">{{ error }}</div>
+    <div class="form-group">
+      <label for="customerId">Customer ID</label>
+      <input id="customerId" name="CUSTOMER_ID" [value]="customer.CUSTOMER_ID" (input)="customer.CUSTOMER_ID = $event.target.value" required />
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input id="password" name="PASSWORD" type="password" [value]="customer.PASSWORD" (input)="customer.PASSWORD = $event.target.value" required />
+    </div>
+    <button type="submit">Login</button>
+  </form>
+</div>
