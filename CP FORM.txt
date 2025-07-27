@@ -1,0 +1,8 @@
+ZCP_INTERFACE577
+ZCP_FORM577_T
+ZCP_FORM577_S1
+ZCP_FORM577
+ZCP_FORM577_FM
+ZCP_FORM_SD
+http://AZKTLDS5CP.kcloud.com:8000/sap/bc/srt/scs/sap/zcp_form_sd?sap-client=100
+urn:sap-com:document:sap:rfc:functions
